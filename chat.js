@@ -27,4 +27,14 @@ function replyMessage(message) {
   }
 
   chat.innerHTML += "<div class='message'><b>Aurora:</b> " + response + "</div>";
+  speak(response);
+}
+
+function speak(text) {
+  const synth = window.speechSynthesis;
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = "en-US";
+  utter.pitch = 1.1;
+  utter.rate = 1;
+  synth.speak(utter);
 }
