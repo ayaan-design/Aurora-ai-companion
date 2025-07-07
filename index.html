@@ -9,8 +9,16 @@
 </head>
 <body>
 <h1>🌌 Aurora AI Digital Girlfriend</h1>
+<button onclick="startCall()" class="call-btn">📞 Call Aurora</button>
 <div id="chat-window"></div>
 <input type="text" id="user-input" placeholder="Say something..." autofocus>
 <button onclick="sendMessage()">Send</button>
+
+<div id="call-overlay">
+  <video id="call-video" autoplay muted loop>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  </video>
+  <button onclick="endCall()" class="end-btn">❌ End Call</button>
+</div>
 </body>
 </html>

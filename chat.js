@@ -38,3 +38,11 @@ function speak(text) {
   utter.rate = 1;
   synth.speak(utter);
 }
+
+function startCall() {
+  document.getElementById("call-overlay").style.display = "flex";
+}
+
+function endCall() {
+  document.getElementById("call-overlay").style.display = "none";
+}
