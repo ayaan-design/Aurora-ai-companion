@@ -95,3 +95,10 @@ div.message {
   border-radius: 20px;
   box-shadow: 0 0 20px #ff4da6;
 }
+
+#mood-select {
+  padding: 12px 15px;
+  font-size: 18px;
+  margin: 10px;
+  border-radius: 8px;
+}
