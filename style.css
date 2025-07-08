@@ -102,3 +102,9 @@ div.message {
   margin: 10px;
   border-radius: 8px;
 }
+
+.greeting {
+  font-size: 22px;
+  margin: 10px;
+  text-shadow: 0 0 8px #fff;
+}
